@@ -1,21 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Annie+Use+Your+Telescope&family=Imprima&display=swap');
 html{
-    font-family: 'Gloock', serif;
     background: #433633;
 }
 
 h1 {
-    color: #F7F0F5;
+    color: #5C5552;
     padding: 10px;
     top: 0;
     z-index: 1;
+    font-size: 120px;
+    font-family: 'Amatic SC', serif;
 }
 
+h2 {
+    color: #DECBB7;
+    padding: 10px;
+    font-size: 75px;
+    position: center;
+    font-family: 'Annie Use Your Telescope', serif;
+}
+
+p {
+    color: #433633;
+    padding: 5px;
+    font-size: 25px;
+    font-family: 'Annie Use Your Telescope', serif;
+}
 .container {
     display: flex;
     justify-content: center;
 }
+
+.header {
+    padding: 5px;
+    text-align: center;
+    background-image: url('https://img.freepik.com/free-vector/grunge-paper-background_1048-10026.jpg?w=1800&t=st=1677719856~exp=1677720456~hmac=a33bdab228a46eaa60e4ac68f7c0878ef1ea78a20e0e0a7d31d4f00919512b08');
+  }
 
 .sticky {
     position: -webkit-sticky;
@@ -23,19 +44,49 @@ h1 {
     top: 0;
 }
 
-h2 {
-    color: #DECBB7;
-    padding: 10px;
+#box {
+    border-radius: 15px 50px 30px 5px;
+    background: #504643;
+    padding: 20px;
+    width: 300px;
+    height: 150px;
+    position: center;
+    transition-duration: 1s;
 
-}
-box {
-    display: block;
-    background-color: #8F857D;
-    position: left;
-    padding: 10px 10px 10px 10px;
-    width: 500px
-}
+  }
 
+#box:hover {
+    border-radius: 15px 50px 30px 5px;
+    background: #DECBB7;
+    padding: 20px;
+    width: 300px;
+    height: 150px;
+    position: center;
+    transition-duration: 1s;
+
+  }
+
+#box2 {
+    border-radius: 50px 15px 5px 30px;
+    background: #504643;
+    padding: 20px;
+    width: 300px;
+    height: 150px;
+    position: center;
+    transition-duration:1s;
+
+  }
+
+  #box2:hover {
+    border-radius: 50px 15px 5px 30px;
+    background: #DECBB7;
+    padding: 20px;
+    width: 300px;
+    height: 150px;
+    position: center;
+    transition-duration:1s;
+  }
+  
 img {
     display: in-line;
     position: right;
