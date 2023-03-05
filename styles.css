@@ -153,3 +153,15 @@ b {
   transition-duration:0.5s;
   opacity: 1.0;
 }
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
