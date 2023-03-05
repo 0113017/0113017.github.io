@@ -94,7 +94,7 @@ b {
     position: center;
     transition-duration: 0.2s;
     background: #DECBB7;
-    opacity: 0.2;
+    opacity: 0.1;
   }
 
 #box:hover {
@@ -112,7 +112,7 @@ b {
     height: 200px;
     position: center;
     transition-duration:0.2s;
-    opacity: 0.2;
+    opacity: 0.1;
   }
 
   #box2:hover {
@@ -147,6 +147,7 @@ b {
   #img2:hover {
     opacity: 1.0;
     transition-duration:0.3s;
+    width: 450px;
   }
 
 .footer {
@@ -156,7 +157,7 @@ b {
     width: 15%;
     height: 10%;
     border-radius: 50px 0px 0px 0px;
-    background-color: #8F857D;
+    background-color: #DECBB7;
     color: white;
     text-align: left;
     padding: 5px 5px 5px 5px;
@@ -174,13 +175,13 @@ b {
 }
 
 a:link {
-  color: green;
+  color: #F7F0F5;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:visited {
-  color: pink;
+  color: #8F857D;
   background-color: transparent;
   text-decoration: none;
 }
