@@ -28,6 +28,10 @@ p {
     font-family: 'Annie Use Your Telescope', serif;
 }
 
+b {
+    font-size: 30px;
+}
+
 .container {
     display: flex;
     justify-content: left;
@@ -143,6 +147,7 @@ p {
 
  .footer:hover {
   position: fixed;
+  display: flex;
   width: 50%;
   height: 18%;
   transition-duration:0.5s;
