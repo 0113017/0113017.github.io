@@ -44,6 +44,12 @@ b {
   padding: 40px 0px 0px 50px;
 }
 
+.container3 {
+  display: inline-flex;
+  justify-content: center;
+  padding: 20px 10px 20px 75px;
+}
+
 .absolute_image {
   position: absolute;
   right: 80px;
@@ -126,6 +132,19 @@ b {
   }
 
   #img1:hover {
+    opacity: 1.0;
+    transition-duration:0.3s;
+  }
+  
+#img2 {
+    border-radius: 20px;
+    width: 400px;
+    box-shadow: 10px 5px 5px;
+    opacity: 0.3;
+    transition-duration:0.1s; 
+  }
+
+  #img2:hover {
     opacity: 1.0;
     transition-duration:0.3s;
   }
